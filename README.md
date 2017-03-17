@@ -38,9 +38,7 @@
 温湿度传感器 |填写温度值|	填写湿度值	| |填写电量值（-1表示此设备不是电池供电的设备）	
 照度|填写传感器上报的测量值MeasuredValue	|||		填写电量值	
 门锁 | 填写on/off属性值 <br>0:表示状态为<br>，1:表示状态为关	|||		电量值	
-空调设备 | 填写0表示打开 <br>填写-1表示关闭 |||| json 字符串，键值分别为温度，空调模式，风速，风向<br>JSONObject jobj = new JSONObject() <br>//空调温度 <br>jobj.put(JdSmartDeviceOrder.TEMPERATURE, "26") <br>//空调模式 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_MODE_TYPE,JdSmartDeviceOrder.AIRCONDITION_MODE_COOL)<br>//空调风速 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_WIND_RATE_TYPE,JdSmartDeviceOrder.AIRCONDITION_WIND_RATE_AUTO) <br>//空调风向 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_WIND_DIRECTION_TYPE,JdSmartDeviceOrder.AIRCONDITION_WIND_DIRECTION__UP_DOWN)
-
-
+空调设备 | 填写0表示打开 <br>填写-1表示关闭 | | | | json 字符串，键值分别为温度，空调模式，风速，风向<br>JSONObject jobj = new JSONObject() <br>//空调温度 <br>jobj.put(JdSmartDeviceOrder.TEMPERATURE, "26") <br>//空调模式 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_MODE_TYPE,JdSmartDeviceOrder.AIRCONDITION_MODE_COOL)<br>//空调风速 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_WIND_RATE_TYPE,JdSmartDeviceOrder.AIRCONDITION_WIND_RATE_AUTO) <br>//空调风向 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_WIND_DIRECTION_TYPE,JdSmartDeviceOrder.AIRCONDITION_WIND_DIRECTION__UP_DOWN) |
 
 
 
