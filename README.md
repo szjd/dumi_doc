@@ -1,16 +1,7 @@
 
 
-### 度秘开放api文档
-[度秘开放api文档](doc/OPENAPI_README.md)
-
-### 度秘开放api json schema详细定义
-基于[http://json-schema.org/](http://json-schema.org/)的标准，提供了详细的schema验证
-[json schema详细定义](schema/README.md)
-
-
-
-类型 | 操作 |	order|	value1|	value2|	value3|	value4|	groupData
- ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- 
+类型 | 操作 |	order|	value1|	value2
+ ---- | ---- | ---- | ---- | ---- 
 |开关类型设备(灯，开关，插座,电视，机顶盒)| 打开|ON||||||
  | 关闭  |OFF|
 |调光灯| 打开|ON|
@@ -48,3 +39,15 @@
 照度|填写传感器上报的测量值MeasuredValue	|||		填写电量值	
 门锁 | 填写on/off属性值 <br>0:表示状态为<br>，1:表示状态为关	|||		电量值	
 空调设备 | 填写0表示打开 <br>填写-1表示关闭 |||| json 字符串，键值分别为温度，空调模式，风速，风向<br>JSONObject jobj = new JSONObject() <br>//空调温度 <br>jobj.put(JdSmartDeviceOrder.TEMPERATURE, "26") <br>//空调模式 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_MODE_TYPE,JdSmartDeviceOrder.AIRCONDITION_MODE_COOL)<br>//空调风速 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_WIND_RATE_TYPE,JdSmartDeviceOrder.AIRCONDITION_WIND_RATE_AUTO) <br>//空调风向 <br>jobj.put(JdSmartDeviceOrder.AIRCONDITION_WIND_DIRECTION_TYPE,JdSmartDeviceOrder.AIRCONDITION_WIND_DIRECTION__UP_DOWN)
+
+
+
+
+
+### 度秘开放api文档
+[度秘开放api文档](doc/OPENAPI_README.md)
+
+### 度秘开放api json schema详细定义
+基于[http://json-schema.org/](http://json-schema.org/)的标准，提供了详细的schema验证
+[json schema详细定义](schema/README.md)
+
