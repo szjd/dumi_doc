@@ -3,26 +3,26 @@
 类型 | 操作 |	order|	value1|	value2
  ---- | ---- | ---- | ---- | ---- 
 |开关类型设备(灯，开关，插座,电视，机顶盒)| 打开|ON||||||
- | 关闭  |OFF|
+| | 关闭  |OFF|
 |调光灯| 打开|ON|
- | 关闭  |OFF	|	
- |移动	|MOVE_TO_LEVEL||		亮度值，最高值255|
+| | 关闭  |OFF	|	
+| |移动	|MOVE_TO_LEVEL||		亮度值，最高值255|
 多功能控制盒| 打开|ON             |
- | 关闭  |OFF|
-有开关和一个进度属性的设备(窗帘，开窗器，温控器等)| 打开|ON       
- | 关闭  |OFF			
- |移动	|MOVE_TO_LEVEL|	移动比例，例如10, 表示移动10%|
- |停止移动|	STOP
+| | 关闭  |OFF|
+有开关和一个进度属性的设备(窗帘，开窗器，温控器等)| 打开|ON       
+| | 关闭  |OFF			
+| |移动	|MOVE_TO_LEVEL|	移动比例，例如10, 表示移动10%|
+| |停止移动|	STOP
 警报设备 |关闭警报|	MUTE
 空调设备 |打开|	OPEN					
- |关闭|	CLOSE					
- |调整温度|	MOVE_TO_LEVEL|	温度值，例如26，表示调置为26度			
- |切换到指定的工作模式|	SET	|AIRCONDITION_MODE_TYPE |工作模式值 例如，AIRCONDITION_MODE_COOL			
- |切换到指定的风速模式|	SET	|AIRCONDITION_WIND_RATE_TYPE |风速模式，例如，AIRCONDITION_WIND_RATE_MIDDLE			
- |切换到指定的扫风模式	|SET|	AIRCONDITION_WIND_RATE_TYPE | 扫风模式，例如，AIRCONDITION_WIND_DIRECTION_LEFT_RIGHT			
- |直接切换到下一个工作模式|	NEXT|	AIRCONDITION_MODE_TYPE			
- |直接切换到下一个风速模式|	NEXT|	AIRCONDITION_WIND_RATE_TYPE		
- |直接切换到下一个扫风模式|	NEXT|	AIRCONDITION_WIND_RATE_TYPE
+| |关闭|	CLOSE					
+| |调整温度|	MOVE_TO_LEVEL|	温度值，例如26，表示调置为26度			
+| |切换到指定的工作模式|	SET	|AIRCONDITION_MODE_TYPE |工作模式值 例如，AIRCONDITION_MODE_COOL			
+| |切换到指定的风速模式|	SET	|AIRCONDITION_WIND_RATE_TYPE |风速模式，例如，AIRCONDITION_WIND_RATE_MIDDLE			
+| |切换到指定的扫风模式	|SET|	AIRCONDITION_WIND_RATE_TYPE | 扫风模式，例如，AIRCONDITION_WIND_DIRECTION_LEFT_RIGHT			
+| |直接切换到下一个工作模式|	NEXT|	AIRCONDITION_MODE_TYPE			
+| |直接切换到下一个风速模式|	NEXT|	AIRCONDITION_WIND_RATE_TYPE		
+| |直接切换到下一个扫风模式|	NEXT|	AIRCONDITION_WIND_RATE_TYPE
 
 ### 设备状态
 
